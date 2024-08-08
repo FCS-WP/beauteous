@@ -2,11 +2,18 @@ name: Wordpress Notifications Git Action
 
 run-name: FCS Wordpress GitHub Actions 🚀
 
+permissions:
+    contents: write
+    pull-requests: write
+    issues: read
+    packages: none
 on:
   push:
     branches:
       - update-*
       - main
+
+
 jobs:
   create-pull-request:
     runs-on: ubuntu-latest
