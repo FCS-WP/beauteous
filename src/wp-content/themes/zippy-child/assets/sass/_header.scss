@@ -1,0 +1,119 @@
+.header-nav.header-nav-main.nav.nav-left{
+    justify-content: center;
+    a{
+        font-size: 14px;
+        color: #222;
+        letter-spacing: 2px;
+    }
+}
+
+.header-search{
+    i{
+        font-size: 18px !important;
+        color: #222;
+    }
+}
+
+.header-button{
+    .header-cart-link{
+        color: #222;
+        background-color: #F7E4E7 !important;
+        padding: 14px 35px !important;
+        border: 0 !important;
+    }
+    .header-cart-link:hover{
+        color: #8D4D5D;
+    }
+}
+
+.title-banner-homepage{
+    h3{
+        font-size: 68px !important;
+        letter-spacing: 2px;
+        font-weight: normal;
+        font-family: "butlertran" !important;
+    }
+}
+
+.menulink-banner{
+    display: flex;
+    justify-content: center;
+    a{
+        padding: 0 30px;
+        border-right: 1px solid white;
+        font-size: 30px;
+    }
+    a:last-child{
+        border: 0;
+    }
+}
+
+.column-home-page{
+    svg{
+        width: 5em;
+        height: 5em;
+        fill: #8D4D5D !important; 
+    }
+    p{
+        font-size: 30px;
+        margin: 0 0 1.5rem;
+        max-width: 950px;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.section-about-home{
+    h2{
+        font-size: 56px;
+        font-weight: normal;
+    }
+    p{
+        font-size: 20px !important;
+        font-family: 'Karla';
+    }
+    // .image-left-about{
+    //     transform: translate3d(250px, -70px, 0px);
+    // }
+    .image-right-about{
+        transform: translate3d(-100px, -200px, 0px);
+    } 
+}
+
+.border-radius-20{
+    img{
+        border-radius: 20px;
+    }
+}
+
+.image-box-sevice {
+    .box-text{
+        height: 100%;
+        padding: 20px !important;
+        .box-text-inner{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            padding: 20px;
+        }
+    }
+    
+    h2{
+        font-size: 25px;
+        font-weight: normal;
+    }
+    .box-image{
+        border-radius: 20px;
+    }
+    .button{
+        padding: 10px 30px;
+    }
+}
+.title-our-treatments{
+    font-size: 56px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
