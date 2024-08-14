@@ -1,0 +1,11 @@
+$opensans-font-path: "../fonts/butler" !default;
+
+// regular
+@font-face {
+  font-family: "butlertran";
+  src: url('#{$opensans-font-path}/ButlerStencil-Black.woff') format('woff'),
+  url('#{$opensans-font-path}/ButlerStencil-Black.woff2') format('woff2'),
+      url('#{$opensans-font-path}/ButlerStencil-Black.woff') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
