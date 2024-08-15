@@ -1,19 +1,7 @@
 /*
   use  ../../path_to_font =  Theme-child
 */
-$assets_path: "../../fonts" !default;
+// $assets_path: "../../" !default;
 
 /* Font face for web template */
-@include font-face("Open Sans", "#{$assets_path}/Arial/SVN-Arial-Regular", 500);
-@include font-face("Open Sans", "#{$assets_path}/Arial/SVN-Arial-Bold", 900);
-@include font-face("Open Sans", "#{$assets_path}/Arial/SVN-Arial-Italic", 500);
-@include font-face("Open Sans", "#{$assets_path}/Arial/SVN-Arial-Bold-Italic", 900);
-html * {
-  // background: url(../../img/background.jpg);
-  background-size: cover;
-  font-family: 'Open Sans', serif !important;
-  // font-weight: 400;
-}
-// body {
-//   font-family: "Arial", serif !important;
-// }
+@include font-face("butlertran", "#{$assets_path}/fonts/Butler-Light", 500);

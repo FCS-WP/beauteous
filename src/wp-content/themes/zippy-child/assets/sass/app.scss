@@ -1,4 +1,5 @@
-@import './header';
-@import './font/butler-light';
+@import 'mixins';
+@import 'header';
+@import './font/fonts';
 @import './page.scss';
 @import './footer.scss';
