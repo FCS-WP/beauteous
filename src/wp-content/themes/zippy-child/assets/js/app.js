@@ -1,3 +1,4 @@
+//animation for image homepage
 var section = document.querySelector('.section-has-animation');
 var elementsToAnimate = document.querySelectorAll('.image-animation-scroll');
 var elementsToAnimateVertical = document.querySelectorAll('.image-animation-scroll-vertical');
@@ -20,5 +21,21 @@ if (section && elementsToAnimate.length > 0) {
     window.addEventListener('scroll', updateScrollAnimation);
     updateScrollAnimation();
 } else {
-    console.log('Không tìm thấy phần tử có class section-has-animation hoặc image-animation-scroll');
 }
+
+//custome nav slide
+document.getElementById('preBtn').addEventListener('click', function() {
+    const buttons = document.querySelectorAll('.flickity-prev-next-button.previous');
+    
+    if (buttons.length > 0) {
+        buttons[0].click();
+    }
+  });
+  
+  document.getElementById('nextBtn').addEventListener('click', function() {
+    const buttons = document.querySelectorAll('.flickity-prev-next-button.next');
+    
+    if (buttons.length > 0) {
+        buttons[0].click();
+    }
+  });
