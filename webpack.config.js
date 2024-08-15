@@ -57,10 +57,10 @@ module.exports = [
                 sassOptions: {
                   outputStyle: "compressed",
                 },
-                additionalData: "$assets_path: 200px;",
+                additionalData: '$assets_path: "../../" !default;',
               },
             },
-            "sass-loader",
+            
           ],
         },
         // Font files
