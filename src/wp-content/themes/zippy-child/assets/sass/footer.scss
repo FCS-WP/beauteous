@@ -58,7 +58,7 @@
     border: 0px !important;
 }
 
-@media(max-width: 767px){
+@media(max-width: 1024px){
     .textwidget.custom-html-widget{
         justify-content: left;
     }
@@ -69,5 +69,8 @@
                 width: 100%;
             }
         }
+    }
+    #custom_html-6{
+        justify-content: left;
     }
 }
